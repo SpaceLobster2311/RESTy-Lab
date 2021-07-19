@@ -1,4 +1,4 @@
 [build]
   base    = "subdirectory"
   publish = "subdirectory/dist/"
-  command = "https://github.com/SpaceLobster2311/RESTy-Lab/blob/main/resty/src/app.js"
+  command = "RESTy-Lab/blob/main/resty/src/app.js"
