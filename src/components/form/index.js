@@ -5,7 +5,7 @@ import './form.scss';
 function Form(props) {
   const [input, setInput] = useState('')
 
-  const handleSubmit = () => {
+  const handleSubmit = (e) => {
     e.preventDefault();
     const formData = {
       method:'GET',
