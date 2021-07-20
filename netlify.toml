@@ -1,4 +1,0 @@
-[build]
-  base    = "subdirectory"
-  publish = "subdirectory/dist/"
-  command = "RESTy-Lab/blob/main/resty/src/app.js"
