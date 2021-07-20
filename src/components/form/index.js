@@ -17,7 +17,7 @@ function Form(props) {
   
     return (
       <>
-        <form onSubmit={props.handleSubmit}>
+        <form onSubmit={handleSubmit}>
           <label >
             <span>URL: </span>
             <input name='url' type='text' />
