@@ -16,6 +16,7 @@ class App extends React.Component {
     this.state = {
       data: null,
       requestParams: {},
+      
     };
   }
 
@@ -38,7 +39,7 @@ class App extends React.Component {
         <div>Request Method: {this.state.requestParams.method}</div>
         <div>URL: {this.state.requestParams.url}</div>
         <Form handleApiCall={this.callApi} />
-        <Results data={this.state.data} />
+        <Results data-testid='results' data={this.state.data} />
         <Footer />
       </React.Fragment>
     );
